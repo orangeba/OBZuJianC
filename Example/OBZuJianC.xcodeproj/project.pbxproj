@@ -346,10 +346,12 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-OBZuJianC_Example/Pods-OBZuJianC_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/OBZuJianA/OBZuJianA.framework",
 				"${BUILT_PRODUCTS_DIR}/OBZuJianC/OBZuJianC.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OBZuJianA.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OBZuJianC.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

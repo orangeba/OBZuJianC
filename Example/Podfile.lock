@@ -1,15 +1,22 @@
 PODS:
-  - OBZuJianC (0.1.0)
+  - OBZuJianA (0.3.0)
+  - OBZuJianC (0.1.0):
+    - OBZuJianA (~> 0.3.0)
 
 DEPENDENCIES:
   - OBZuJianC (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - OBZuJianA
 
 EXTERNAL SOURCES:
   OBZuJianC:
     :path: "../"
 
 SPEC CHECKSUMS:
-  OBZuJianC: 07c4db7cd8faada251190fb7ef244726f2b5544b
+  OBZuJianA: 52d4b0692432767c636a0d40c85754227aab22da
+  OBZuJianC: 4dfb80a16b8d2c8ee9b84e00a69dbb0701c054a1
 
 PODFILE CHECKSUM: e64c6aeb7b0e8c0bb62f7a81c74cdb1eea37ccb4
 
