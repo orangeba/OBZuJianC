@@ -1,0 +1,6 @@
+framework module OBZuJianC {
+  umbrella header "OBZuJianC-umbrella.h"
+
+  export *
+  module * { export * }
+}
