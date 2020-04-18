@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'OBZuJianC_Example' do
+  pod 'OBZuJianC', :path => '../'
+
+  target 'OBZuJianC_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
